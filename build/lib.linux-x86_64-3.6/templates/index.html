@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>打娘娘</title>
+
+</head>
+<body>
+<canvas id="myowncanvas" width="1280" height="720"></canvas>
+<a href="/xipai"> 重写洗牌</a>
+<div id="tool"></div>
+</body>
+<script src="{{ url_for('static',filename = "poker.js") }}"></script>
+<script src="{{ url_for('static',filename = "js/data.js") }}"></script>
+
+<script src="{{ url_for('static',filename = "js/canvas.js") }}"></script>
+
+
+<script src="{{ url_for('static',filename = "js/EventListener.js") }}"></script>
+<script>
+back.src = "{{ url_for('static',filename = 'img/bg.jpg') }} "
+ 
+     get_data()
+
+</script>
+</html>
